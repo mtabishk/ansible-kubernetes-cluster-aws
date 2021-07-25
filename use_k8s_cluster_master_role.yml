@@ -1,5 +1,5 @@
 - name: use the k8s master roles
   hosts: tag_name_master
   roles:
-    - mtabishk.k8s-master
+    - mtabishk.ansible_kubernetes_master_role
 
