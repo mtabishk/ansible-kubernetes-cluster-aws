@@ -1,6 +1,11 @@
 # ansible-kubernetes-cluster-aws
 Configure Kubernetes Cluster on AWS Cloud
 
+
+https://user-images.githubusercontent.com/61789893/126898145-5cfc2e33-2fd9-4fe3-9094-9345dac57b01.mp4
+
+
+
 ### Step 1: Configure AWS CLI2 SDK
 ![0](https://user-images.githubusercontent.com/61789893/126860834-8f4bf522-0c1f-4cba-b6d4-6a185033701f.png)
 
