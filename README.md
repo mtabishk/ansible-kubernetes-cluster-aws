@@ -2,7 +2,9 @@
 Configure Kubernetes Cluster on AWS Cloud
 
 
-https://user-images.githubusercontent.com/61789893/126898145-5cfc2e33-2fd9-4fe3-9094-9345dac57b01.mp4
+
+https://user-images.githubusercontent.com/61789893/127108921-f21356bb-f8ea-4bc5-946e-fc3176de078a.mp4
+
 
 
 
