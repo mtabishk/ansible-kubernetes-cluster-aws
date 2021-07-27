@@ -17,9 +17,9 @@ Replace with your aws credentials
 ![upd2](https://user-images.githubusercontent.com/61789893/126860849-2cdf5038-85d6-474f-a66b-269bdcf00b9d.png)
 
 ### Step 3: Update ansible.cfg file
-Update the roles_path with your current working directory and private_key_file with your AWS KeyPair
+Update the private_key_file with your AWS KeyPair
 
-![cfg](https://user-images.githubusercontent.com/61789893/126860884-741cdecf-dbe7-49e1-b7d8-b5cbae55743a.png)
+![an](https://user-images.githubusercontent.com/61789893/127128926-9726364b-303f-40d8-815d-c82343dd993e.png)
 
 ### Step 4: Update vars in launch_ec2_instances.yml file
 Update keypair, image (Use AMI ID of Amazon Linux 2), vpc_subnet_id, security_group_id (SG should allow all ports), region, output_dir variables
@@ -35,16 +35,10 @@ Check whether instances are launched in AWS Cloud.
 
 ![1](https://user-images.githubusercontent.com/61789893/126861226-8de7f399-851e-475c-a35b-d9d5f642dcce.png)
 
-### Step 6: Update roles/k8s-master/vars/main.yml file
-Update the output_dir with your current working directory
 
-![upd](https://user-images.githubusercontent.com/61789893/126861263-262b58c4-76b6-4aba-a012-757082d89dec.png)
+### Step 6: Run use_k8s_cluster_roles.yml playbook
 
-### Step 7: Run use_k8s_cluster_master_role.yml playbook
-![mm](https://user-images.githubusercontent.com/61789893/126861378-21cf56b9-33fb-43cc-8a22-a84e02f78e24.png)
-
-### Step 8: Run use_k8s_cluster_worker_role.yml playbook
-![ww](https://user-images.githubusercontent.com/61789893/126861482-37c4560e-c6fc-4727-8d95-f559af3db5bc.png)
+![10](https://user-images.githubusercontent.com/61789893/127129134-cc69950f-529d-4071-b291-cb57cc62a3b9.png)
 
 ## Done!! 
 
